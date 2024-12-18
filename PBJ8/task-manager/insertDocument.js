@@ -8,7 +8,7 @@ const url = 'mongodb://127.0.0.1:27017';
 const client = new MongoClient(url);
 
 // Mendefinisikan nama database yang akan digunakan.
-const namaDatabase = 'testasaja';
+const namaDatabase = 'task-manager';
 
 // Membuat instace ObjectId baru. ObjectId digunakan untuk menghasilkan unik identifier untuk dokumen MongoDB.
 const id = new ObjectId();
